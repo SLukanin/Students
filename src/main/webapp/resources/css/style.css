@@ -1,0 +1,198 @@
+* {
+    font-family: "Comic Sans MS";
+    background-color: rgb(238, 238, 238);
+}
+
+.logout {
+    float: right;
+    text-align: left;
+    vertical-align: bottom;
+    margin: 30px 8cm 0 0;
+}
+
+.first {
+    float: left;
+    text-align: right;
+    margin: 100px 0 0 5px;
+}
+
+.back {
+    float: left;
+    text-align: right;
+    margin: 100px 0 0 5cm;
+}
+
+.boxSite {
+    /*margin: 0px 350px 0  350px;*/
+    margin: 0px 9.5cm 0 9.5cm;
+}
+
+.firstRow{
+    /*margin-right: 60%;*/
+    float: left;
+}
+.secondRow{
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+    margin-left: 20%;
+
+}
+
+.box {
+    /*width: 400px;*/
+    /*height: 400px;*/
+    background-color: white;
+    font-size: 35px;
+    /*padding: 30px 40px 50px 20px;*/
+    /*padding-left: 20px;*/
+    /*padding-top: 30px;*/
+    /*padding-right: 40px;*/
+    /*padding: 20px 40px;*/
+    margin-bottom: 40px;
+    border: 2px solid black;
+    float: top;
+    text-align: center;
+}
+
+.admin-bottom {
+    margin-right: 30%;
+}
+
+button {
+    margin: 10px;
+    font-size: 17px;
+    background-color: rgb(204, 204, 204);
+    text-align: center;
+    /*display: inline-block;*/
+    /*float: none;*/
+    /*vertical-align: top;*/
+}
+
+.table {
+    display: table;
+    margin: 20px auto 50px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.tableName {
+    font-size: 20px;
+}
+
+.table-row {
+    display: table-row;
+    font-size: 15px;
+
+}
+
+.table-cell {
+    display: table-cell;
+    border: 1px solid black;
+    padding: 10px;
+    height: 1cm;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    vertical-align: bottom;
+    text-align: left;
+
+}
+
+.table-cellH {
+    display: table-cell;
+    background-color: rgb(204, 204, 204);
+    border: 1px solid black;
+    padding: 10px;
+    height: 1cm;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    vertical-align: bottom;
+    text-align: left;
+
+}
+
+.table-cellH.checkbox {
+    width: 3.25cm;
+}
+
+.table-cellH.secondName {
+    width: 9.5cm;
+    font-weight: bold;
+}
+
+.table-cellH.name {
+    width: 10.5cm;
+    font-weight: bold;
+}
+
+.table-cellH.group {
+    width: 4.25cm;
+    font-weight: bold;
+}
+
+.table-cellH.date {
+    width: 4.25cm;
+    font-weight: bold;
+}
+
+input {
+    /*!*background-color: white;*!*/
+    /*margin: 10px;*/
+    /*font-size: 17px;*/
+    /*background-color: rgb(204, 204, 204);*/
+    /*text-align: center;*/
+
+    margin: 10px;
+    font-size: 17px;
+    background-color: rgb(204, 204, 204);
+    text-align: center;
+    /*display: inline-block;*/
+    /*float: none;*/
+    /*vertical-align: top;*/
+}
+
+p {
+    text-align: right;
+    margin-right: 70%;
+    font-weight: normal;
+}
+
+.buttonModify {
+    margin-left: 20%;
+}
+
+.students {
+    /*float: left;*/
+    /*text-align: left;*/
+    /*vertical-align: bottom;*/
+    float: left;
+    margin: 1.858736059%;
+    /*padding: 20px 0;*/
+    text-align: left;
+    width: 29.615861214%;
+}
+
+.disciplines {
+    /*float: top;*/
+    /*text-align: center;*/
+    /*vertical-align: bottom;*/
+    /*!*margin: 0 30% 0 30%;*!*/
+
+    float: left;
+    margin: 1.858736059%;
+    /*padding: 20px 0;*/
+    text-align: center;
+    width: 29.615861214%;
+
+}
+
+.semestrs {
+    /*float: right;*/
+    /*text-align: right;*/
+    /*vertical-align: bottom;*/
+    float: left;
+    margin: 1.858736059%;
+    /*padding: 20px 0;*/
+    text-align: right;
+    width: 29.615861214%;
+}
